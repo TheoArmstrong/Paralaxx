@@ -1,0 +1,93 @@
+html, body
+{
+    height: 100%;  /*Ocupa 100% da area do navegador*/
+    margin: 0;
+    font-family: sans-serif;
+    color: rgb(44, 44, 44);
+}
+
+
+.Parallax1{
+    position: relative;/*define posicionamento relativo*/
+    background-image: url("../img/Parallax1.webp");/*Insira a imagem de fundo*/
+    height: 100%; /*Tamanho relativo a Div*/
+    opacity: 0.5; /*Opacidade*/
+    background-attachment: fixed;/*Deixa a imagem fixa*/
+    background-position:center ;/*centralixa a img*/
+    background-repeat: no-repeat;/*Não repete se a img for menor que a tela*/
+    background-size:cover; /*ajusta a img a tela*/
+}
+
+.caixa{
+    position: relative; /*defione a posiçaõ da div*/
+    text-align: center;/*Texto centralizado*/
+    left: 30%; /*gruda o quadro na esqueda*/
+    top: 50%; /*quadro com texto em 50% da div (parallax1*/
+    background-color: brown;
+    width: 40%;
+    color: aliceblue; /*define a cor do texto*/
+    padding: 20px; /*define o espaçamento entre a caixa e o text*/
+    font-size: 25px;/*tamanho letra*/
+    letter-spacing: 10px; /*aumenta espaçamento da letra*/
+}
+
+.texto1{
+    background-color: azure;
+    text-align: justify;
+    padding: 50px 80px;
+    font-size: 18px;/*tamanho letra*/
+}
+
+.video{
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    background-color: brown;
+    color: aliceblue; /*define a cor do texto*/
+    padding: 20px; /*define o espaçamento entre a caixa e o text*/
+    font-size: 25px;/*tamanho letra*/
+    letter-spacing: 10px; /*aumenta espaçamento da letra*/
+}
+
+.Parallax2{
+    position: relative;
+    background-image: url("../img/Parallax2.jpeg");
+    height: 100%;
+    opacity: 0.5;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.texto2{
+    background-color: azure;
+    text-align: justify;
+    padding: 50px 80px;
+    font-size: 18px;/*tamanho letra*/
+}
+
+.Parallax3{
+    position: relative;
+    background-image: url("../img/Parallax3.png");
+    height: 100%;
+    opacity: 0.5;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.finalização{
+    text-align: center;
+    background-color: rgb(164, 199, 199);
+    color: rgb(255, 0, 0); /*define a cor do texto*/
+    padding: 20px; /*define o espaçamento entre a caixa e o text*/
+    font-size: 25px;/*tamanho letra*/
+    letter-spacing: 10px; /*aumenta espaçamento da letra*/
+}
+
+
+
+
+
